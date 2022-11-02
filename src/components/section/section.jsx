@@ -1,6 +1,5 @@
 import './section.css'
 const SectionHeading = (props)=>{
-    console.log(props)
     return (
 <> 
 <div className="section">

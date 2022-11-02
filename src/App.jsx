@@ -9,6 +9,10 @@ import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faPencilRuler } from "@fortawesome/free-solid-svg-icons";
 import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
+import { faMugHot } from "@fortawesome/free-solid-svg-icons";
+import { faFolder } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 const App = () => {
   return (
     <>
@@ -142,6 +146,196 @@ const App = () => {
       </div>
     </div>
     {/* End Design */}
+    {/* start Portfolio */}
+    <SectionHeading names="Portfolio" />
+    <div className="portfolio">
+      <div className="container">
+        <ul className="shuffle">
+          <li className="active">ALL</li>
+          <li>App</li>
+          <li>Photo</li>
+          <li>Wep</li>
+          <li>Print</li>
+          </ul>  
+      </div>
+      <div className="imgs-container">
+        <div className="box">
+          <img src="./images/shuffle-01.jpg" alt="pic 1" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-02.jpg" alt="pic 2" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-03.jpg" alt="pic 3" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-04.jpg" alt="pic 4" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-05.jpg" alt="pic 5" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-06.jpg" alt="pic 6" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-07.jpg" alt="pic 7" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src="./images/shuffle-08.jpg" alt="pic 8" />
+          <div className="caption">
+            <h4>Awesome Images</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" className="more">More</a>
+    </div>
+    {/* end Portfolio */}
+    {/* start video */}
+    <div className="video">
+      <video autoPlay muted loop >
+        <source src="./images/vid-01.mp4" type='video/mp4' />
+      </video>
+      <div className="text">
+        <h2>SUPER AWESOME VIDEO HERE</h2>
+        <p>Its All You Need</p>
+        <button>See More</button>
+      </div>
+    </div>
+    {/* end video */}
+    {/* start about */}
+    <SectionHeading names="About US" />
+     <div className="about">
+      <div className="container">
+        <img src="./images/about.png" alt="phones and taplets" />
+      </div>
+     </div>
+    {/* end about */}
+    <div className="stats">
+      <div className="container">
+        <div className="box">
+        <FontAwesomeIcon icon={faMugHot} className="statsi" />
+        <div className="number">1,236</div>
+        <p>Coffe Drinks</p>
+        </div>
+        <div className="box">
+        <FontAwesomeIcon icon={faFolder} className="statsi" />
+        <div className="number">256</div>
+        <p>Completed Projects</p>
+        </div>
+        <div className="box">
+        <FontAwesomeIcon icon={faEnvelope} className="statsi" />
+        <div className="number">1,743</div>
+        <p>Mail Sent</p>
+        </div>
+        <div className="box">
+        <FontAwesomeIcon icon={faTrophy} className="statsi" />
+        <div className="number">17</div>
+        <p>Awards Received</p>
+        </div>
+      </div>
+    </div>
+    {/* start skills */}
+    <div class="our-skills">
+      <div class="container">
+        <div class="testimonials">
+          <h3>Testimonials</h3>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+            tincidunt.
+          </p>
+          <div class="content">
+            <img src="images/skills-01.jpg" alt="" />
+            <div class="text">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt.
+              <p>John Doe, CEO</p>
+            </div>
+          </div>
+          <div class="content">
+            <img src="images/skills-02.jpg" alt="" />
+            <div class="text">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt.
+              <p>John Doe, CEO</p>
+            </div>
+          </div>
+          <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h3>Skills</h3>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+            tincidunt.
+          </p>
+          <div class="prog-holder">
+            <h4>Adobe</h4>
+            <div class="prog">
+              <span style={{width: '90%'}} data-progress="90%"></span>
+            </div>
+          </div>
+          <div class="prog-holder">
+            <h4>Html &amp; Css</h4>
+            <div class="prog">
+              <span style={{width: '85%'}} data-progress="85%"></span>
+            </div>
+          </div>
+          <div class="prog-holder">
+            <h4>JavaScript</h4>
+            <div class="prog">
+              <span style={{width: "80%"}} data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="prog-holder">
+            <h4>Php</h4>
+            <div class="prog">
+              <span style={{width: "90%"}} data-progress="90%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* end skills */}
+    {/* start quote */}
+    <div class="quote">
+      <div class="container">
+        <q>accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</q>
+        <span>John Doe</span>
+      </div>
+    </div>
+    {/* end quote */}
     </>
   );
 };
