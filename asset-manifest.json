@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Kasper-spa/static/css/main.7341f12e.css",
+    "main.js": "/Kasper-spa/static/js/main.61090a97.js",
+    "static/media/stats.png": "/Kasper-spa/static/media/stats.a508b84400efad055f18.png",
+    "static/media/subscribe.jpg": "/Kasper-spa/static/media/subscribe.1e24fcea5980ced232ec.jpg",
+    "static/media/landing.jpg": "/Kasper-spa/static/media/landing.15c0fabc946b186ba9ff.jpg",
+    "static/media/design-features.jpg": "/Kasper-spa/static/media/design-features.f62b2e28d39b5c35c9c4.jpg",
+    "static/media/quote.jpg": "/Kasper-spa/static/media/quote.429d009ecb9a02e9b317.jpg",
+    "index.html": "/Kasper-spa/index.html",
+    "main.7341f12e.css.map": "/Kasper-spa/static/css/main.7341f12e.css.map",
+    "main.61090a97.js.map": "/Kasper-spa/static/js/main.61090a97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7341f12e.css",
+    "static/js/main.61090a97.js"
+  ]
+}
